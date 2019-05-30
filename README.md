@@ -1,3 +1,5 @@
+# Indoor/Outdoor Security System (Deployement using C++)
+
 Goal of this project is deployment of security system for detection of human for indoor/outdoor.
 
 The final product is an embedded system equipped with camera that in real-time gives alarm in the case of seeing human. 
