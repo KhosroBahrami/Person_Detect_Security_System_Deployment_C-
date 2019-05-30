@@ -7,16 +7,16 @@ In the second step, I deploy the inference part on server using C++.
 In the third step, I deploy the inference part on embedded system (Dragon board 410C) using C++.
 
 
-1. In this step, I finetuned the SSD Mobilenet_V1 to be used for deployment. 
+# 1. In this step, I finetuned the SSD Mobilenet_V1 to be used for deployment. 
 For details of this step please refer to https://github.com/KhosroBahrami/ObjectDetection_SSD_Tensorflow.
 
 
 
 
-2.Deployment on Server
+# 2.Deployment on Server
 To deploy SSD object detection on server, I did/prepared the following steps:
 
-Software requirements:
+### Software requirements:
 Installation of Debian linux
 Installation of Bazel (to compile tensorflow)
 Installation of Tensorflow
@@ -34,16 +34,16 @@ Display the frames with the bounding box of detected objects.
 
 
 
-3.Deployment on DragonBoard 410c
+# 3.Deployment on DragonBoard 410c
 To deploy SSD object detection on the DragonBoard 410c, I did/prepared the following steps:
 
-Hardware requirements:
+### Hardware requirements:
 Using a DragonBoard 410c, USB camera, keyboard, mouse, HDMI monitor.
 Using a 16GB MicroSD Card
 Partition the 16GB MicroSD card into 4GB and 12GB.
 The 4GB of SD card was used to increase the memory (DragonBoard 410c has 1GB memory).
 The 12GB of SD card was used to increase the storage (DragonBoard 410c has 8GB storage).
-Software requirements:
+### Software requirements:
 Installation of Debian linux
 Installation of Bazel (to compile tensorflow)
 Installation of Tensorflow
