@@ -18,19 +18,20 @@ For details of this step please refer to https://github.com/KhosroBahrami/Object
 To deploy SSD object detection on server, I did/prepared the following steps:
 
 ### Software requirements:
-Installation of Debian linux
-Installation of Bazel (to compile tensorflow)
-Installation of Tensorflow
-Installation of OpenCV
-The object detection code
-Pipeline of our system for includes the following steps:
+- Installation of Debian linux
+- Installation of Bazel (to compile tensorflow)
+- Installation of Tensorflow
+- Installation of OpenCV
+- The object detection code
 
-Capture the live video from camera
-Extract the images/frames from the input video
-Resize every image/frame for the SSD network
-Run the SSD network on the resized image/frame
-Apply the Non-Maximum Suppression algorithm to get rid of multiple detections of a single object
-Display the frames with the bounding box of detected objects.
+### Pipeline of our system includes the following steps:
+
+- Capture the live video from camera
+- Extract the images/frames from the input video
+- Resize every image/frame for the SSD network
+- Run the SSD network on the resized image/frame
+- Apply the Non-Maximum Suppression algorithm to get rid of multiple detections of a single object
+- Display the frames with the bounding box of detected objects.
 
 
 
@@ -39,24 +40,26 @@ Display the frames with the bounding box of detected objects.
 To deploy SSD object detection on the DragonBoard 410c, I did/prepared the following steps:
 
 ### Hardware requirements:
-Using a DragonBoard 410c, USB camera, keyboard, mouse, HDMI monitor.
-Using a 16GB MicroSD Card
-Partition the 16GB MicroSD card into 4GB and 12GB.
-The 4GB of SD card was used to increase the memory (DragonBoard 410c has 1GB memory).
-The 12GB of SD card was used to increase the storage (DragonBoard 410c has 8GB storage).
-### Software requirements:
-Installation of Debian linux
-Installation of Bazel (to compile tensorflow)
-Installation of Tensorflow
-Installation of OpenCV
-The object detection code
-Pipeline of our system for vehicle and pedestrain detection
-The pipeline of our system includes the following steps:
+- Using a DragonBoard 410c, USB camera, keyboard, mouse, HDMI monitor.
+- Using a 16GB MicroSD Card
+- Partition the 16GB MicroSD card into 4GB and 12GB.
+- The 4GB of SD card was used to increase the memory (DragonBoard 410c has 1GB memory).
+- The 12GB of SD card was used to increase the storage (DragonBoard 410c has 8GB storage).
 
-Capture the live video from camera
-Extract the images/frames from the input video
-Resize every image/frame for the SSD network
-Run the SSD network on the resized image/frame
-Apply the Non-Maximum Suppression algorithm to get rid of multiple detections of a single object
-Display the frames with the bounding box of detected objects.
+### Software requirements:
+- Installation of Debian linux
+- Installation of Bazel (to compile tensorflow)
+- Installation of Tensorflow
+- Installation of OpenCV
+- The object detection code
+- Pipeline of our system for pedestrain detection
+
+### The pipeline of our system includes the following steps:
+
+- Capture the live video from camera
+- Extract the images/frames from the input video
+- Resize every image/frame for the SSD network
+- Run the SSD network on the resized image/frame
+- Apply the Non-Maximum Suppression algorithm to get rid of multiple detections of a single object
+- Display the frames with the bounding box of detected objects.
 
