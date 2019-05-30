@@ -7,7 +7,8 @@ In the second step, I deploy the inference part on server using C++.
 In the third step, I deploy the inference part on embedded system (Dragon board 410C) using C++.
 
 
-# 1. In this step, I finetuned the SSD Mobilenet_V1 to be used for deployment. 
+# 1. Training & Fine tuning of Model 
+In this step, I finetuned the SSD Mobilenet_V1 to be used for deployment. 
 For details of this step please refer to https://github.com/KhosroBahrami/ObjectDetection_SSD_Tensorflow.
 
 
