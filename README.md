@@ -1,10 +1,10 @@
 # Indoor/Outdoor Security System (Deployement using C++)
 
-Goal of this project is deployment of security system for detection of human for indoor/outdoor.
+The goal of this project is deployment of a vision-based security system for detection of human for indoor/outdoor.
 
 The final product is an embedded system equipped with camera that in real-time gives alarm in the case of seeing human. 
 This project has three main steps: 
-In the first step, I implemented the SSD object detection which is finetuned for new dataset. 
+In the first step, I implemented the SSD object detection which is finetuned for human detection. 
 In the second step, I deploy the inference part on server using C++.
 In the third step, I deploy the inference part on embedded system (Dragon board 410C) using C++.
 
